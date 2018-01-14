@@ -1,5 +1,5 @@
 $gray: #8c8c8c;
-$dark: #212121;
+$black: #212121;
 
 .nav {
 	height: 91px;
@@ -8,7 +8,7 @@ $dark: #212121;
 	justify-content: space-between;
 	// border: 1px solid black;
 	&__logo {
-		// margin: 0px 0 5px -1px;
+		margin: 0px 0 5px -1px;
 	}
 	&__box {
 		display: inherit;
@@ -27,7 +27,7 @@ $dark: #212121;
 		text-transform: uppercase;
 		letter-spacing: 1.4px;
 		&:hover {
-			color: $dark;
+			color: $black;
 			font-weight: 700;
 		}
 	}

@@ -9,6 +9,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  .nav__logo {
+    margin: 0px 0 5px -1px; }
   .nav__box {
     display: inherit;
     margin-right: 68px; }
