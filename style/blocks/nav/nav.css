@@ -1,0 +1,38 @@
+.nav {
+  border: 1px solid black;
+  height: 91px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .nav__box {
+    display: inherit;
+    -webkit-box-pack: inherit;
+        -ms-flex-pack: inherit;
+            justify-content: inherit;
+    width: 534px; }
+  .nav__list {
+    display: inherit; }
+  .nav__link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.4px; }
+    .nav__link:hover {
+      color: #212121;
+      font-weight: 700; }
+  .nav__input {
+    display: none; }
+  .nav__btn {
+    border: 0;
+    padding: 0;
+    background: transparent; }
+    .nav__btn::before {
+      margin-left: 21px;
+      content: url("../img/svg/search.svg"); }

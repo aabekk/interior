@@ -1,0 +1,41 @@
+$gray: #8c8c8c;
+$dark: #212121;
+
+.nav {
+	border: 1px solid black;
+	height: 91px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	&__box {
+		display: inherit;
+		justify-content: inherit;
+		width: 534px;
+	}
+	&__list {
+		display: inherit;
+	}
+	&__link {
+		color: $gray;
+		font-size: 14px;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 1.4px;
+		&:hover {
+			color: $dark;
+			font-weight: 700;
+		}
+	}
+	&__input {
+		display: none;
+	}
+	&__btn {
+		border: 0;
+		padding: 0;
+		background: transparent;
+		&::before {
+			margin-left: 21px;
+			content: url('../img/svg/search.svg'); //Поставить спрайт
+		}
+	}
+}
