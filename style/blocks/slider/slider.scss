@@ -1,0 +1,31 @@
+
+$black: #212121;
+$green: #43a047;
+$dark-gray: #6c6c6c;
+.slider {
+	margin-top: 265px;
+	max-width: 459px;
+	&__caption {
+		color: $green;
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 1.3px;
+		line-height: 47px;
+	}
+	&__title {
+		color: $black;
+		font-size: 57px;
+		font-weight: 100;
+		line-height: 33px;
+		text-transform: uppercase;
+		margin: 0;
+	}
+	&__details {
+		color: $dark-gray;
+		font-size: 14px;
+		font-weight: 300;
+		padding: 15px 0;
+		line-height: 25px;
+	}
+}
