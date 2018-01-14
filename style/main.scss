@@ -3,10 +3,12 @@
 @import 'blocks/container/container';
 @import 'blocks/header/header';
 @import 'blocks/nav/nav';
+@import 'blocks/slider/slider';
+@import 'buttons/order/order';
 @import 'blocks/content/content';
 @import 'blocks/footer/footer';
 
-$dark: #212121;
+$black: #212121;
 $light-gray: #9c9c9c;
 $white: #fff;
 $gray: #8c8c8c;

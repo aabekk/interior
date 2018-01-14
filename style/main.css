@@ -404,6 +404,8 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  .nav__logo {
+    margin: 0px 0 5px -1px; }
   .nav__box {
     display: inherit;
     margin-right: 68px; }
@@ -430,3 +432,47 @@ a {
     background: none; }
     .nav__btn::before {
       content: url("../img/svg/search.svg"); }
+
+.slider {
+  margin-top: 265px;
+  max-width: 459px; }
+  .slider__caption {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    line-height: 47px; }
+  .slider__title {
+    color: #212121;
+    font-size: 57px;
+    font-weight: 100;
+    line-height: 33px;
+    text-transform: uppercase;
+    margin: 0; }
+  .slider__details {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 15px 0;
+    line-height: 25px; }
+
+.btn-order {
+  width: 212px;
+  height: 45px;
+  -webkit-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+          box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+  border-radius: 23px;
+  background-color: #fff;
+  color: #6c6c6c;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3.6px; }
+  .btn-order:hover {
+    color: #212121;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
+  .btn-order span {
+    font-size: 18px; }
