@@ -1,0 +1,20 @@
+$name: montserrat;
+
+@mixin font-face ($name, $mod, $font-weight, $style: false) {
+    @font-face {
+        font-family: $name;
+        src: url('../font/' + $name + '/' + $name + '-' + $mod + '.eot');
+        src: url('../font/' + $name + '/' + $name + '-' + $mod + '.eot?#iefix') format('embedded-opentype'),
+             url('../font/' + $name + '/' + $name + '-' + $mod + '.woff2') format('woff2'),
+             url('../font/' + $name + '/' + $name + '-' + $mod + '.woff') format('woff'),
+             url('../font/' + $name + '/' + $name + '-' + $mod + '.ttf') format('truetype');
+        font-weight: $font-weight;
+        @if $style {
+        	font-style: $style
+        }
+    }
+}
+
+@include font-face($name, bold, 700);
+@include font-face($name, light, 300);
+@include font-face($name, thin, 100);
