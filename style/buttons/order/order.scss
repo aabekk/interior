@@ -1,0 +1,23 @@
+$white: #fff;
+$black: #212121;
+$dark-gray: #6c6c6c;
+.btn-order {
+	width: 212px;
+	height: 45px;
+	box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+	border-radius: 23px;
+	background-color: $white;
+	color: $dark-gray;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: 3.6px;
+	&:hover {
+		color: $black;
+		transition: 0.2s;
+	}
+	span {
+		font-size: 18px;
+	}
+}

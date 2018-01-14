@@ -1,0 +1,19 @@
+.btn-order {
+  width: 212px;
+  height: 45px;
+  -webkit-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+          box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+  border-radius: 23px;
+  background-color: #fff;
+  color: #6c6c6c;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3.6px; }
+  .btn-order:hover {
+    color: #212121;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
+  .btn-order span {
+    font-size: 18px; }
