@@ -1,0 +1,33 @@
+$black: #212121;
+$gray: #8c8c8c;
+.marks {
+	margin: 0 auto;
+	margin-top: 140px;
+	width: 130px;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__item {
+		width: 40px;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__btn {
+		border: 0;
+		width: 30px;
+		height: 30px;
+		border-radius: 20px;
+		opacity: 0.2;
+		background-color: $gray;
+		outline: none;
+		&:hover {
+			opacity: 1;
+			width: 100%;
+			height: 100%;
+			background-color: $black;
+		}
+	}
+}
