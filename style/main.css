@@ -72,8 +72,7 @@ figure {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -111,8 +110,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */ }
 
 /**
@@ -266,8 +264,7 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -301,8 +298,7 @@ textarea {
  * 2. Remove the padding in IE 10-.
  */
 [type="checkbox"], [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -396,38 +392,43 @@ a {
 
 .nav {
   height: 91px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  align-items: flex-end;
+  justify-content: space-between; }
   .nav__logo {
     margin: 0px 0 5px -1px; }
   .nav__box {
-    display: inherit;
+    display: flex;
+    align-items: center;
     margin-right: 68px; }
   .nav__list {
-    width: 516px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around; }
+    width: 503px;
+    display: inherit;
+    justify-content: space-between; }
+  .nav__item {
+    display: inherit;
+    flex-direction: column; }
   .nav__link {
     color: #8c8c8c;
     font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 1.4px; }
+    letter-spacing: 1.4px;
+    margin: 0 auto; }
     .nav__link:hover {
       color: #212121;
       font-weight: 700; }
+      .nav__link:hover + .nav__border {
+        opacity: 1; }
+  .nav__border {
+    opacity: 0;
+    margin: 0 auto;
+    margin-top: 7px;
+    width: 73px;
+    height: 3px;
+    background-color: #212121; }
   .nav__search {
-    margin-left: 8px; }
+    margin-left: 19px; }
   .nav__input {
     display: none; }
   .nav__btn {
@@ -466,27 +467,15 @@ a {
   margin-top: 140px;
   width: 130px;
   height: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  justify-content: space-between;
+  align-items: center; }
   .marks__item {
     width: 40px;
     height: 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    justify-content: center;
+    align-items: center; }
   .marks__btn {
     border: 0;
     width: 30px;
@@ -504,8 +493,7 @@ a {
 .btn-order {
   width: 212px;
   height: 45px;
-  -webkit-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
-          box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+  box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
   border-radius: 23px;
   background-color: #fff;
   color: #6c6c6c;
@@ -516,7 +504,6 @@ a {
   letter-spacing: 3.6px; }
   .btn-order:hover {
     color: #212121;
-    -webkit-transition: 0.2s;
     transition: 0.2s; }
   .btn-order span {
     font-size: 18px; }
