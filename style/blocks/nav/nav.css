@@ -15,9 +15,12 @@
     display: inherit;
     margin-right: 68px; }
   .nav__list {
-    display: inherit; }
-  .nav__item {
-    margin-left: 24px; }
+    width: 516px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
   .nav__link {
     color: #8c8c8c;
     font-size: 14px;
@@ -28,7 +31,7 @@
       color: #212121;
       font-weight: 700; }
   .nav__search {
-    margin-left: 19px; }
+    margin-left: 8px; }
   .nav__input {
     display: none; }
   .nav__btn {
