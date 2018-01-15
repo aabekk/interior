@@ -1,6 +1,6 @@
 .slider {
   margin-top: 265px;
-  max-width: 459px; }
+  max-width: 468px; }
   .slider__caption {
     color: #43a047;
     font-size: 18px;
@@ -16,8 +16,8 @@
     text-transform: uppercase;
     margin: 0; }
   .slider__details {
+    margin: 31px 0 27px;
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
-    padding: 15px 0;
     line-height: 25px; }

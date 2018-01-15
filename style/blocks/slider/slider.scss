@@ -1,10 +1,11 @@
 
 $black: #212121;
 $green: #43a047;
+$gray: #8c8c8c;
 $dark-gray: #6c6c6c;
 .slider {
 	margin-top: 265px;
-	max-width: 459px;
+	max-width: 468px;
 	&__caption {
 		color: $green;
 		font-size: 18px;
@@ -22,10 +23,10 @@ $dark-gray: #6c6c6c;
 		margin: 0;
 	}
 	&__details {
+		margin: 31px 0 27px;
 		color: $dark-gray;
 		font-size: 14px;
 		font-weight: 300;
-		padding: 15px 0;
 		line-height: 25px;
 	}
 }
