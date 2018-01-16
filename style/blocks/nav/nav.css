@@ -2,13 +2,13 @@
   height: 91px;
   display: flex;
   align-items: flex-end;
-  justify-content: space-between; }
-  .nav__logo {
-    margin: 0px 0 5px -1px; }
-  .nav__box {
-    display: flex;
-    align-items: center;
-    margin-right: 68px; }
+  justify-content: flex-end;
+  margin-right: 68px;
+  position: relative; }
+  .nav::before {
+    content: url("../img/svg/logo.svg");
+    position: absolute;
+    left: 0; }
   .nav__list {
     width: 503px;
     display: inherit;
