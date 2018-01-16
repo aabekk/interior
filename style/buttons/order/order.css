@@ -13,8 +13,3 @@
   .btn-order:hover {
     color: #212121;
     transition: 0.2s; }
-  .btn-order span {
-    font-size: 18px; }
-  .btn-order__arrow {
-    margin-bottom: -1px;
-    margin-right: -1px; }
