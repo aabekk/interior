@@ -2,7 +2,7 @@ $gray: #8c8c8c;
 $black: #212121;
 
 .nav {
-	height: 91px;
+	height: 90px;
 	display: flex;
 	align-items: flex-end;
 	justify-content: flex-end;
@@ -14,11 +14,12 @@ $black: #212121;
 		left: 0;
 	}
 	&__list {
-		width: 503px;
+		width: 535px;
 		display: inherit;
 		justify-content: space-between;
 	}
 	&__item {
+		width: 20%;
 		display: inherit;
 		flex-direction: column;
 	}
@@ -41,12 +42,12 @@ $black: #212121;
 		opacity: 0;
 		margin: 0 auto;
 		margin-top: 7px;
-		width: 73px;
+		width: 74px;
 		height: 3px;
 		background-color: $black;
 	}
 	&__search {
-		margin-left: 19px;
+		margin-left: 5px;
 	}
 	&__input {
 		display: none;
