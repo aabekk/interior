@@ -1,27 +1,33 @@
 @import 'font/font';
 @import 'normalize/normalize';
 @import 'blocks/container/container';
+@import 'buttons/order/order';
+@import 'buttons/explore/explore';
 @import 'blocks/header/header';
 @import 'blocks/nav/nav';
 @import 'blocks/slider/slider';
 @import 'blocks/marks/marks';
-@import 'buttons/order/order';
-@import 'blocks/content/content';
+@import 'blocks/preview/preview';
+@import 'blocks/nav-control/nav-control';
+@import 'blocks/promo/promo';
+@import 'blocks/trend/trend';
+@import 'blocks/nav-trend/nav-trend';
+@import 'blocks/hot/hot';
+@import 'blocks/slider/_last/slider_last';
+@import 'blocks/promo/_last/promo_last';
+@import 'blocks/app/app';
 @import 'blocks/footer/footer';
+@import 'blocks/contact/contact';
+@import 'blocks/info/info';
+@import 'blocks/feedback/feedback';
+@import 'blocks/search/search';
+@import 'blocks/copy/copy';
 
 $black: #212121;
 $light-gray: #9c9c9c;
-$white: #fff;
 $gray: #8c8c8c;
 $blue: #1e88e5;
 $dark-gray: #6c6c6c;
 $green: #43a047;
 $red: #e53935;
-
-@mixin font($family, $weight) {
-        font: {
-            family: $family;
-            weight: $weight;
-        }
-}
 
