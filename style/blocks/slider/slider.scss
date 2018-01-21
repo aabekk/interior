@@ -4,12 +4,11 @@ $green: #43a047;
 $gray: #8c8c8c;
 $dark-gray: #6c6c6c;
 .slider {
-	margin-top: 266px;
-	max-width: 468px;
+	margin-left: 98px;
+	// margin-left: 7.2%;
 	&__caption {
 		color: $green;
 		font-size: 18px;
-		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 1.3px;
 		line-height: 47px;
@@ -23,10 +22,13 @@ $dark-gray: #6c6c6c;
 		margin: 0;
 	}
 	&__text {
-		margin: 31px 0 27px;
+		margin: 31px 0 25px;
+		// margin: 2.4% 0 2%;
 		color: $dark-gray;
 		font-size: 14px;
-		font-weight: 300;
 		line-height: 25px;
+		max-width: 468px;
+		// max-width: 37%;
+		letter-spacing: -0.1px;
 	}
 }
