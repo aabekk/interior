@@ -1,0 +1,15 @@
+.contact {
+  width: 225px; }
+  .contact__caption {
+    letter-spacing: 1.2px; }
+  .contact__text {
+    letter-spacing: -0.2px;
+    margin: 14px 0 22px; }
+  .contact__item {
+    letter-spacing: -0.1px; }
+  .contact__link {
+    letter-spacing: -0.3px;
+    color: #212121; }
+    .contact__link:hover {
+      color: #e53935;
+      transition: 0.2s; }

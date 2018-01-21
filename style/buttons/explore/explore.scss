@@ -1,0 +1,20 @@
+$black: #212121;
+$dark-gray: #6c6c6c;
+.explore {
+	// width: 179px;
+	// height: 18px;
+	// display: inline-block;
+	background: url('../img/svg/arrow.svg') no-repeat 100.8% 44%;
+
+	padding-right: 18px;
+	// padding-right: 1.6%;
+
+	color: $dark-gray;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	&:hover {
+		color: $black;
+	}
+}

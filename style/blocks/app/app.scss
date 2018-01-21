@@ -1,0 +1,46 @@
+$black: #212121;
+$light-gray: #9c9c9c;
+$gray: #8c8c8c;
+$blue: #1e88e5;
+$dark-gray: #6c6c6c;
+$green: #43a047;
+$red: #e53935;
+
+.app {
+	background: url('../img/back-img.jpg') no-repeat;
+	padding: 122px 98px 117px;
+	// padding: 8.9% 7.2% 8.59%;
+	&__caption {
+		color: $dark-gray;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 1.1px;
+		margin: 0;
+	}
+	&__title {
+		letter-spacing: -4.4px;
+		width: 415px;
+		// width: 35.5%;
+		color: $black;
+		font-size: 62px;
+		font-weight: 100;
+		text-transform: uppercase;
+		margin: 0;
+		margin-top: 7px;
+		// margin-top: 0.6%;
+	}
+	&__text {
+		color: $dark-gray;
+		font-size: 22px;
+		margin: 7px 0;
+    	letter-spacing: -0.3px;
+	}
+	&__list {
+		width: 280px;
+		// width: 23.9%;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 33px;
+		// margin-top: 2.9%;
+	}
+}

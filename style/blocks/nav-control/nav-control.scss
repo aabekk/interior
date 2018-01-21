@@ -1,0 +1,36 @@
+$black: #212121;
+$light-gray: #9c9c9c;
+$white: #fff;
+$gray: #8c8c8c;
+$blue: #1e88e5;
+$dark-gray: #6c6c6c;
+
+.nav-control {
+	color: $dark-gray;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__list { //Доработать
+		width: 300px;
+		// width: 25.6%;
+		border-bottom: 1px solid $dark-gray;
+	}
+	&__item {
+		display: inline-block;
+		font-size: 35px;
+	}
+	&__btn {
+		color: inherit;
+		font-weight: inherit;
+		letter-spacing: 2.0px;
+		border: 0;
+		border-bottom: 2px solid transparent; //Доработать ползунок
+		padding-bottom: 11px;
+		// padding-bottom: 6.2%;
+		&:hover {
+			color: $black;
+			border-color: $black;
+		}
+	}
+}

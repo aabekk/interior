@@ -1,0 +1,16 @@
+.info {
+  width: 425px; }
+  .info__caption {
+    letter-spacing: 1.4px; }
+  .info__box {
+    display: flex;
+    justify-content: space-between; }
+  .info__link {
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: #212121;
+    font-size: 14px; }
+    .info__link:hover {
+      color: #6c6c6c; }

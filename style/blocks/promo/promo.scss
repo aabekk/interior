@@ -1,0 +1,47 @@
+$black: #212121;
+$dark-gray: #6c6c6c;
+$blue: #1e88e5;
+
+.promo {
+	display: flex;
+	&__item {
+		position: relative;
+	}
+	&__link {
+		&:hover {
+			background-color: #fff;
+			opacity: 0.5;
+			transition: 0.2s;
+		}
+	}
+	&__box {
+		position: absolute;
+		top: 225px;
+		// top: 32.8%;
+		left: 50px;
+		// left: 7.3%;
+	}
+	&__title {
+		margin: 0;
+		color: $blue;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 1.5px;
+	}
+	&__caption {
+		color: $black;
+		font-size: 36px;
+		margin: 9px 0;
+		letter-spacing: -1px;
+	}
+	&__text {
+		max-width: 382px;
+		// width: 65.1%;
+		color: $dark-gray;
+		font-size: 14px;
+		line-height: 24.04px;
+		margin: 10px 0 28px;
+		// margin: 1.6% 0 4.9%;
+		letter-spacing: -0.1px;
+	}
+}

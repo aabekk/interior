@@ -1,0 +1,28 @@
+$black: #212121;
+$light-gray: #9c9c9c;
+$gray: #8c8c8c;
+$blue: #1e88e5;
+$dark-gray: #6c6c6c;
+$green: #43a047;
+$red: #e53935;
+
+.trend {
+	padding: 111px 98px 90px;
+	// padding: 8.1% 7.2% 6.6%;
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&__item {
+		margin-bottom: 27px;
+		// margin-bottom: 2.3%;
+	}
+	&__img-link {
+		&:hover {
+			background-color: #fff;
+			opacity: 0.5;
+			transition: 0.2s;
+		}
+	}
+}

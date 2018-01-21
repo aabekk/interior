@@ -1,0 +1,22 @@
+.nav-control {
+  color: #6c6c6c;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .nav-control__list {
+    width: 300px;
+    border-bottom: 1px solid #6c6c6c; }
+  .nav-control__item {
+    display: inline-block;
+    font-size: 35px; }
+  .nav-control__btn {
+    color: inherit;
+    font-weight: inherit;
+    letter-spacing: 2.0px;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 11px; }
+    .nav-control__btn:hover {
+      color: #212121;
+      border-color: #212121; }

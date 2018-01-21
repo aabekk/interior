@@ -1,0 +1,14 @@
+.copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .copy__list {
+    display: flex;
+    justify-content: space-between;
+    width: 129px;
+    margin: 2px 26px 0 0; }
+  .copy__text {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    margin: 0;
+    font-weight: 700; }

@@ -1,0 +1,19 @@
+.copy {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		width: 129px;
+		// width: 11%;
+		margin: 2px 26px 0 0;
+		// margin: 0.1% 2.3% 0 0;
+	}
+	&__text {
+		font-size: 12px;
+		letter-spacing: 0.4px;
+		margin: 0;
+		font-weight: 700;
+	}
+}

@@ -1,0 +1,30 @@
+$black: #212121;
+$light-gray: #9c9c9c;
+$gray: #8c8c8c;
+$blue: #1e88e5;
+$dark-gray: #6c6c6c;
+$green: #43a047;
+$red: #e53935;
+
+.info {
+	width: 425px;
+	// width: 36.5%;
+	&__caption {
+		letter-spacing: 1.4px;
+	}
+	&__box {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__link {
+		font-weight: 700;
+		line-height: 26px;
+		text-transform: uppercase;
+		letter-spacing: 0.4px;
+		color: $black;
+		font-size: 14px;
+		&:hover {
+			color: $dark-gray;
+		}
+	}
+}

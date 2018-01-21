@@ -1,0 +1,28 @@
+.app {
+  background: url("../img/back-img.jpg") no-repeat;
+  padding: 122px 98px 117px; }
+  .app__caption {
+    color: #6c6c6c;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    margin: 0; }
+  .app__title {
+    letter-spacing: -4.4px;
+    width: 415px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 7px; }
+  .app__text {
+    color: #6c6c6c;
+    font-size: 22px;
+    margin: 7px 0;
+    letter-spacing: -0.3px; }
+  .app__list {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px; }

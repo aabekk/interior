@@ -1,0 +1,10 @@
+.explore {
+  background: url("../img/svg/arrow.svg") no-repeat 100.8% 44%;
+  padding-right: 18px;
+  color: #6c6c6c;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+  .explore:hover {
+    color: #212121; }
