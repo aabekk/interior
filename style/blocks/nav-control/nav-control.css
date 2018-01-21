@@ -16,7 +16,8 @@
     letter-spacing: 2.0px;
     border: 0;
     border-bottom: 2px solid transparent;
-    padding-bottom: 11px; }
+    padding-bottom: 11px;
+    background-color: transparent; }
     .nav-control__btn:hover {
       color: #212121;
       border-color: #212121; }
