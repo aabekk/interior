@@ -7,6 +7,11 @@
 	<meta name="viewport" content="width=device-width">
 	<meta name="MobileOptimized" content="320">
 	<meta name="HandheldFriendly" content="true">
+	<link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+	<meta name="application-name" content="Shop"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-square150x150logo" content="img/favicon/mstile-150x150.png" />
 </head>
 <body>
 	<div class="container">
@@ -39,32 +44,302 @@
 					<button class="nav__btn"></button>
 				</form>
 			</nav>
-			<div class="slider">
-				<h1 class="slider__caption">trending</h1>
-				<h2 class="slider__title">fishnet chair</h2>
-				<p class="slider__text">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
-				<button class="btn-order">order us&#8194;
-					<img class="btn-order__arrow" src="img/svg/arrow.svg" alt="Стрелка"> <!-- Сделать спрайт -->
-				</button>
+			<img class="header__img" src="img/slider-img.jpg" alt="Main Product" width="100%">
+			<div class="header__box">
+				<div class="slider">
+					<h1 class="slider__caption">trending</h1>
+					<h2 class="slider__title">fishnet chair</h2>
+					<p class="slider__text">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
+					<a href='#' class="order">order us</a>
+				</div>
+				<ul class="marks">
+					<li class="marks__item">
+						<button class="marks__btn"></button> <!-- Нужен radio -->
+					</li>
+					<li class="marks__item">
+						<button class="marks__btn"></button> <!-- Нужен radio -->
+					</li>
+					<li class="marks__item">
+						<button class="marks__btn"></button> <!-- Нужен radio -->
+					</li>
+				</ul>
 			</div>
-			<ul class="marks">
-				<li class="marks__item">
-					<button class="marks__btn"></button> <!-- Нужен radio -->
-				</li>
-				<li class="marks__item">
-					<button class="marks__btn"></button> <!-- Нужен radio -->
-				</li>
-				<li class="marks__item">
-					<button class="marks__btn"></button> <!-- Нужен radio -->
-				</li>
-			</ul>
-
 		</header>
-
-
-
-		<main class="content"></main>
-		<footer class="footer"></footer>
+		<main class="content">
+			<div class="preview">
+				<nav class="nav-control">
+					<ul class="nav-control__list"> <!-- Оптимизировать -->
+						<li class="nav-control__item">
+							<button class="nav-control__btn">Featured</button> <!--Доработать-->
+						</li>
+						<li class="nav-control__item">
+							<button class="nav-control__btn">New</button> <!--Доработать-->
+						</li>
+					</ul>
+					<a class="explore" href="#">explore all</a>
+				</nav>
+				<ul class="preview__list">
+					<li class="preview__item">
+						<img class="preview__img" src="img/product-1.jpg" alt="product-1" width="100%">
+						<div class="preview__box">
+							<a href="#" class="preview__link"></a>
+							<h1 class="preview__caption">Fishnet Chair</h1>
+							<p class="preview__text">Seat and back with upholstery made of cold cure foam.</p>
+						</div>
+					</li>
+					<li class="preview__item">
+						<img class="preview__img" src="img/product-2.jpg" alt="product-2" width="100%">
+						<div class="preview__box">
+							<a href="#" class="preview__link"></a>
+							<h1 class="preview__caption">Fishnet Chair</h1>
+							<p class="preview__text">Seat and back with upholstery made of cold cure foam.</p>
+						</div>
+					</li>
+					<li class="preview__item">
+						<img class="preview__img" src="img/product-3.jpg" alt="product-3" width="100%">
+						<div class="preview__box">
+							<a href="#" class="preview__link"></a>
+							<h1 class="preview__caption">Fishnet Chair</h1>
+							<p class="preview__text">Seat and back with upholstery made of cold cure foam.</p>
+						</div>
+					</li>
+					<li class="preview__item">
+						<img class="preview__img" src="img/product-4.jpg" alt="product-4" width="100%">
+						<div class="preview__box">
+							<a href="#" class="preview__link"></a>
+							<h1 class="preview__caption">Fishnet Chair</h1>
+							<p class="preview__text">Seat and back with upholstery made of cold cure foam.</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="promo">
+				<div class="promo__item">
+					<img class="promo__img" src="img/promo-img1.jpg" alt="Product" width="100%">
+					<div class="promo__box">
+						<h2 class="promo__title">exclusive</h2>
+						<h1 class="promo__caption">Fishnet Chair</h1>
+						<p class="promo__text">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt</p>
+						<a href='#' class="order">order us</a>
+					</div>
+				</div>
+				<div class="promo__item">
+					<img class="promo__img" src="img/promo-img.jpg" alt="Product" width="100%">
+					<div class="promo__box">
+						<h2 class="promo__title">exclusive</h2>
+						<h1 class="promo__caption">Fishnet Chair</h1>
+						<p class="promo__text">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt</p>
+						<a href='#' class="order">order us</a>
+					</div>
+				</div>
+			</div>
+			<div class="trend">
+				<nav class="nav-trend">
+					<ul class="nav-trend__list">
+						<li class="nav-trend__item">
+							<h2 class="nav-trend__caption">Trending Products</h2>
+						</li>
+						<li class="nav-trend__item">
+							<a class="explore" href="#">explore all</a>
+						</li>
+					</ul>
+				</nav>
+				<ul class="trend__list">
+					<li class="trend__item">
+						<a href="#" class="trend__img-link">
+							<img src="img/product-11.jpg" alt="Product" class="trend__img" width="100%">
+						</a>
+					</li>
+					<li class="trend__item">
+						<a href="#" class="trend__img-link">
+							<img src="img/product-21.jpg" alt="Product" class="trend__img" width="100%">
+						</a>
+					</li>
+					<li class="trend__item">
+						<a href="#" class="trend__img-link">
+							<img src="img/product-31.jpg" alt="Product" class="trend__img" width="100%">
+						</a>
+					</li>
+					<li class="trend__item">
+						<a href="#" class="trend__img-link">
+							<img src="img/product-41.jpg" alt="Product" class="trend__img" width="100%">
+						</a>
+					</li>
+					<li class="trend__item">
+						<a href="#" class="trend__img-link">
+							<img src="img/product-5.jpg" alt="Product" class="trend__img" width="100%">
+						</a>
+					</li>
+					<li class="trend__item">
+						<a href="#" class="trend__img-link">
+							<img src="img/product-6.jpg" alt="Product" class="trend__img" width="100%">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="hot">
+				<img src="img/slider.jpg" alt="main-product" class="hot__img" width="100%">
+				<div class="hot__box">
+					<div class="slider">
+						<h1 class="slider__caption slider__caption_last">hot deal</h1>
+						<h2 class="slider__title">fishnet chair</h2>
+						<p class="slider__text">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
+						<a href='#' class="order">order us</a>
+					</div>
+					<ul class="marks">
+						<li class="marks__item">
+							<button class="marks__btn"></button> <!-- Нужен radio -->
+						</li>
+						<li class="marks__item">
+							<button class="marks__btn"></button> <!-- Нужен radio -->
+						</li>
+						<li class="marks__item">
+							<button class="marks__btn"></button> <!-- Нужен radio -->
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="exclusive">
+				<div class="promo__item">
+					<img class="promo__img" src="img/product-1-lg.jpg" alt="Product" width="100%">
+					<div class="promo__box promo__box_last">
+						<h2 class="promo__title">exclusive</h2>
+						<h1 class="promo__caption">Fishnet Chair</h1>
+						<p class="promo__text promo__text_last">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt</p>
+						<a href='#' class="order">order us</a>
+					</div>
+				</div>
+				<ul class="exclusive__list">
+					<li class="exclusive__item">
+						<a class="promo__link" href="#">
+							<img class="promo__img" alt="product" width="100%" src="img/product-2-sm.jpg">
+						</a>
+					</li>
+					<li class="exclusive__item">
+						<a class="promo__link" href="#">
+							<img class="promo__img" alt="product" width="100%" src="img/product-3-sm.jpg">
+						</a>
+					</li>
+					<li class="exclusive__item">
+						<a class="promo__link" href="#">
+							<img class="promo__img" alt="product" width="100%" src="img/product-4-sm.jpg">
+						</a>
+					</li>
+					<li class="exclusive__item">
+						<a class="promo__link" href="#">
+							<img class="promo__img" alt="product" width="100%" src="img/product-5-sm.jpg">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="app">
+				<h1 class="app__caption">mobile app</h1>
+				<h2 class="app__title">find. follow. favorite.</h2>
+				<p class="app__text">Save your favorites and share your style.</p>
+				<ul class="app__list">
+					<li class="app__item">
+						<a href="#" class="app__link">
+							<img src="img/svg/app-store.svg" alt="store" class="app__img">
+						</a>
+					</li>
+					<li class="app__item">
+						<a href="#" class="app__link">
+							<img src="img/svg/google-play.svg" alt="store" class="app__img">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__box">
+				<div class="contact">
+					<h1 class="contact__caption">contact us</h1>
+					<p class="contact__text">132A Bridge Road Richmond VIC Australia.</p>
+					<ul class="contact__list">
+						<li class="contact__item">Talk to us on 1300 132</li>
+						<li class="contact__item">
+							<a href="mailto:info@interior.com" class="contact__link">info@interior.com
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="info">
+					<h1 class="info__caption">useful information</h1>
+					<div class="info__box">
+						<ul class="info__list">
+							<li class="info__item">
+								<a href="#" class="info__link">
+									Sales terms
+								</a>
+							</li>
+							<li class="info__item">
+								<a href="#" class="info__link">
+									Customer care
+								</a>
+							</li>
+							<li class="info__item">
+								<a href="#" class="info__link">
+									Delivery
+								</a>
+							</li>
+						</ul>
+						<ul class="info__list">
+							<li class="info__item">
+								<a href="#" class="info__link">
+									Architect accounts
+								</a>
+							</li>
+							<li class="info__item">
+								<a href="#" class="info__link">
+									Careers
+								</a>
+							</li>
+							<li class="info__item">
+								<a href="#" class="info__link">
+									Exchanges &amp; returns
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="feedback">
+					<h1 class="feedback__caption">let’s stay in touch!</h1>
+					<p class="feedback__text">Suscribe to know about our latest news, products and special offers just for suscribers.</p>
+					<form action="#" class="form">
+						<div class="search">
+							<input class="search__text" type="email" name="email" placeholder="your email address" required>
+							<input class="search__btn" type="submit" name="submit" value="">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="copy">
+				<p class="copy__text">&copy; copyright - interrior 2016. all rights reserved.</p>
+				<ul class="copy__list">
+					<li class="copy__item">
+						<a href="#" class="copy__link">
+							<img src="img/svg/facebook.svg" alt="Facebook" class="copy__img">
+						</a>
+					</li>
+					<li class="copy__item">
+						<a href="#" class="copy__link">
+							<img src="img/svg/twitter.svg" alt="Twitter" class="copy__img">
+						</a>
+					</li>
+					<li class="copy__item">
+						<a href="#" class="copy__link">
+							<img src="img/svg/google-plus.svg" alt="Google Plus" class="copy__img">
+						</a>
+					</li>
+					<li class="copy__item">
+						<a href="#" class="copy__link">
+							<img src="img/svg/pinterest.svg" alt="Pinterest" class="copy__img">
+						</a>
+					</li>
+				</ul>
+				<p class="copy__text">terms &amp; conditions  /  privacy policy &amp; cookies</p>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>
