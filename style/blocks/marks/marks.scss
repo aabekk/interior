@@ -1,10 +1,15 @@
 $black: #212121;
 $gray: #8c8c8c;
 .marks {
-	margin: 0 auto;
-	margin-top: 140px;
+	position: absolute;
+	bottom: 22px;
+	// bottom: 4.8%;
 	width: 130px;
+	// width: 9.5%;
+	left: 50%;
+	margin-left: -65px;
 	height: 40px;
+	// height: 8.8%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -19,7 +24,7 @@ $gray: #8c8c8c;
 		border: 0;
 		width: 30px;
 		height: 30px;
-		border-radius: 20px;
+		border-radius: 50%;
 		opacity: 0.2;
 		background-color: $gray;
 		outline: none;

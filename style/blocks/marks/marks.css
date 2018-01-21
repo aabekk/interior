@@ -1,7 +1,9 @@
 .marks {
-  margin: 0 auto;
-  margin-top: 140px;
+  position: absolute;
+  bottom: 22px;
   width: 130px;
+  left: 50%;
+  margin-left: -65px;
   height: 40px;
   display: flex;
   justify-content: space-between;
@@ -16,7 +18,7 @@
     border: 0;
     width: 30px;
     height: 30px;
-    border-radius: 20px;
+    border-radius: 50%;
     opacity: 0.2;
     background-color: #8c8c8c;
     outline: none; }
