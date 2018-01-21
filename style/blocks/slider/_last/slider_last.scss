@@ -1,0 +1,9 @@
+$red: #e53935;
+
+.slider {
+	&__caption {
+		&_last {
+			color: $red;
+		}
+	}
+}

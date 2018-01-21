@@ -1,0 +1,16 @@
+.promo__box_last {
+  top: 183px;
+  left: 30px; }
+.promo__text_last {
+  max-width: 339px; }
+
+.exclusive {
+  padding: 117px 98px;
+  display: flex;
+  justify-content: space-between; }
+  .exclusive__list {
+    display: inherit;
+    justify-content: inherit;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 570px; }

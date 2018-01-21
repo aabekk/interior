@@ -1,0 +1,31 @@
+.promo {
+	&__box {
+		&_last {
+			top: 183px;
+			// top: 32%;
+			left: 30px;
+			// left: 5.2%;
+		}
+	}
+	&__text {
+		&_last {
+			max-width: 339px;
+			// margin-bottom: 5.4%;
+		}
+	}
+}
+.exclusive {
+	padding: 117px 98px;
+	// padding: 8.55% 7.2%;
+	display: flex;
+	justify-content: space-between;
+	&__list {
+		display: inherit;
+		justify-content: inherit;
+		flex-wrap: wrap;
+		align-content: space-between;
+		width: 570px;
+		// width: 48.7%;
+	}
+
+}
