@@ -1,20 +1,27 @@
-$white: #fff;
 $black: #212121;
 $dark-gray: #6c6c6c;
-.btn-order {
-	width: 212px;
-	height: 45px;
-	box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+.order {
+	// width: 212px;
+    // text-align: center;
+	height: 46px;
+	width: 182px;
+	// width: 14.4%;
+	padding-left: 30px;
+	// padding-left: 2.4%;
+	background: url(../img/svg/arrow.svg) no-repeat 85.4% 50%;
 	border-radius: 23px;
-	background-color: $white;
+	background-color: #fff;
 	color: $dark-gray;
 	font-size: 18px;
 	font-weight: 700;
-	line-height: 24px;
+	line-height: 47px;
 	text-transform: uppercase;
-	letter-spacing: 3.6px;
+	letter-spacing: 4px;
+	display: block;
+	box-shadow: 1px 5px 2px 0 rgba(33, 33, 33, 0.35);
 	&:hover {
 		color: $black;
 		transition: 0.2s;
+		box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
 	}
 }

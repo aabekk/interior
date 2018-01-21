@@ -1,15 +1,19 @@
-.btn-order {
-  width: 212px;
-  height: 45px;
-  box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+.order {
+  height: 46px;
+  width: 182px;
+  padding-left: 30px;
+  background: url(../img/svg/arrow.svg) no-repeat 85.4% 50%;
   border-radius: 23px;
   background-color: #fff;
   color: #6c6c6c;
   font-size: 18px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 47px;
   text-transform: uppercase;
-  letter-spacing: 3.6px; }
-  .btn-order:hover {
+  letter-spacing: 4px;
+  display: block;
+  box-shadow: 1px 5px 2px 0 rgba(33, 33, 33, 0.35); }
+  .order:hover {
     color: #212121;
-    transition: 0.2s; }
+    transition: 0.2s;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35); }
