@@ -1,0 +1,31 @@
+$black: #212121;
+$dark-gray: #6c6c6c;
+
+.footer {
+	background-color: #f7f7f7;
+	padding: 105px 98px 27px;
+	// padding: 7.7% 7.2% 2%;
+	&__box {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 58px;
+		// margin-bottom: 4.91%;
+	}
+}
+
+.contact__caption,
+.info__caption,
+.feedback__caption,
+.copy__text {
+		color: $dark-gray;
+		font-size: 18px;
+		text-transform: uppercase;
+}
+.contact__text,
+.contact__item,
+.feedback__text {
+	color: $black;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px; 
+}
