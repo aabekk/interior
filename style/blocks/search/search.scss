@@ -1,16 +1,13 @@
 $dark-gray: #6c6c6c;
 .search {
 	width: 369px;
-	// width: 99.6%;
 	min-height: 44px;
 	border: 1px solid #d9dee1;
 	background-color: #fff;
 	&__text {
 		width: 308px;
-		// width: 83.3%;
 		min-height: 44px;
 		padding-left: 19px;
-		// padding-left: 5.2%;
 		border: none;
 		outline: none;
 		-webkit-appearance: none;
@@ -33,7 +30,6 @@ $dark-gray: #6c6c6c;
 	&__btn {
 		vertical-align: middle;
 		width: 25.73px;
-		// width: 7%;
 		height: 26.73px;
 		border: none;
 		background: url(../img/svg/airplane.svg) no-repeat 50% 50%;

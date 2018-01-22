@@ -17,9 +17,7 @@ $blue: #1e88e5;
 	&__box {
 		position: absolute;
 		top: 225px;
-		// top: 32.8%;
 		left: 50px;
-		// left: 7.3%;
 	}
 	&__title {
 		margin: 0;
@@ -36,12 +34,10 @@ $blue: #1e88e5;
 	}
 	&__text {
 		max-width: 382px;
-		// width: 65.1%;
 		color: $dark-gray;
 		font-size: 14px;
 		line-height: 24.04px;
 		margin: 10px 0 28px;
-		// margin: 1.6% 0 4.9%;
 		letter-spacing: -0.1px;
 	}
 }

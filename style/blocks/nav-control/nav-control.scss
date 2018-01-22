@@ -13,7 +13,6 @@ $dark-gray: #6c6c6c;
 	align-items: center;
 	&__list { //Доработать
 		width: 300px;
-		// width: 25.6%;
 		border-bottom: 1px solid $dark-gray;
 	}
 	&__item {
@@ -28,7 +27,6 @@ $dark-gray: #6c6c6c;
 		border-bottom: 2px solid transparent; //Доработать ползунок
 		padding-bottom: 11px;
 		background-color: transparent;
-		// padding-bottom: 6.2%;
 		&:hover {
 			color: $black;
 			border-color: $black;
