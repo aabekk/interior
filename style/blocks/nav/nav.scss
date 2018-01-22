@@ -3,30 +3,26 @@ $black: #212121;
 
 .nav {
 	height: 90px;
-	// height: 13.2%;
 	display: flex;
 	align-items: flex-end;
-	justify-content: flex-end;
+	justify-content: space-between;
 	position: fixed;
 	z-index: 1;
-	width: 100%;
 	background-color:#fff;
 	box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.25);
-
-	// display: none;
-	&::before {
-		content: url('../img/svg/logo.svg');
-		position: absolute;
-		left: 98px;
-		// left: 7.62%;
+	padding: 0 166px 0 98px;
+	&__logo-link {
+		display: block;
+		background: url('../img/svg/logo.svg') no-repeat;
+		width: 185px;
+		height: 24px;
+		margin-bottom: 3px; //Тоже не порядок
 	}
 	&__list {
 		width: 535px;
-		// width: 41.72%;
 		display: inherit;
-		justify-content: space-between;
-		margin-right: 5px;
-		// margin-right: 0.4%;
+    	justify-content: space-around;
+    	margin-left: 352px; //Может поместить list и form в еще одну коробку?
 	}
 	&__item {
 		width: 20%;
@@ -52,15 +48,12 @@ $black: #212121;
 		opacity: 0;
 		margin: 0 auto;
 		margin-top: 7px;
-		// margin-top: 5.7%;
 		width: 74px;
-		// width: 69%;
 		height: 3px;
 		background-color: $black;
 	}
 	&__search {
-		margin-right: 80px;
-		// margin-right: 6.3%;
+		margin-left: 5px;
 	}
 	&__input {
 		display: none;
