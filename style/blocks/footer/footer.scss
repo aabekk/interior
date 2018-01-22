@@ -1,8 +1,9 @@
 $black: #212121;
 $dark-gray: #6c6c6c;
+$footer:#f7f7f7;
 
 .footer {
-	background-color: #f7f7f7;
+	background-color: $footer;
 	padding: 105px 98px 27px;
 	// padding: 7.7% 7.2% 2%;
 	&__box {

@@ -1,5 +1,10 @@
+$header: #f5f5f5;
 .header {
+	min-height: 361px;
 	position: relative;
+	&__img {
+		background-color: $header;
+	}
 	&__box {
 		position: absolute;
 		top: 344px;

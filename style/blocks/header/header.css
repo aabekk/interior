@@ -1,5 +1,8 @@
 .header {
+  min-height: 361px;
   position: relative; }
+  .header__img {
+    background-color: #f5f5f5; }
   .header__box {
     position: absolute;
     top: 344px;
