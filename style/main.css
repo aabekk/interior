@@ -525,6 +525,88 @@ button:hover {
     .nav__btn::before {
       content: url("../img/svg/search.svg"); }
 
+.catalog {
+  padding: 66px 98px 140px; }
+  .catalog__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .catalog__item {
+    margin-bottom: 30px; }
+  .catalog__refresh {
+    margin: 0 auto;
+    display: block;
+    width: 29px;
+    height: 29px;
+    margin-top: 40px;
+    background: url("../img/svg/refresh.svg") no-repeat;
+    -webkit-animation-name: spin;
+            animation-name: spin;
+    -webkit-animation-duration: 0.8s;
+            animation-duration: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear; }
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+.location {
+  padding: 70px 98px 122px; }
+  .location__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .location__item {
+    text-align: center;
+    color: #212121;
+    width: 368px;
+    border: 1px solid #9c9c9c;
+    opacity: 0.8;
+    font-size: 14px;
+    padding: 42px 0 62px; }
+    .location__item:hover {
+      opacity: 1; }
+  .location__marker {
+    margin: 0 auto;
+    display: block;
+    width: 51px;
+    height: 83px;
+    background: url("../img/svg/map-marker.svg") no-repeat; }
+  .location__caption {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: -0.6px;
+    margin-bottom: -1px; }
+  .location__title {
+    margin-bottom: 2px;
+    letter-spacing: -1.3px; }
+  .location__link {
+    color: inherit;
+    letter-spacing: -0.1px; }
+    .location__link:hover {
+      color: #6c6c6c; }
+
 .slider {
   margin-left: 98px; }
   .slider__caption {
@@ -645,48 +727,6 @@ button:hover {
     max-width: 214px;
     margin: 14px auto; }
 
-.catalog {
-  padding: 66px 98px 140px; }
-  .catalog__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-  .catalog__item {
-    margin-bottom: 30px; }
-  .catalog__refresh {
-    margin: 0 auto;
-    display: block;
-    width: 29px;
-    height: 29px;
-    margin-top: 40px;
-    background: url("../img/svg/refresh.svg") no-repeat;
-    -webkit-animation-name: spin;
-            animation-name: spin;
-    -webkit-animation-duration: 0.8s;
-            animation-duration: 0.8s;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-            animation-timing-function: linear; }
-@-webkit-keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
-@keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
 .nav-control {
   color: #6c6c6c;
   font-weight: 700;
@@ -881,6 +921,11 @@ button:hover {
   font-size: 18px;
   text-transform: uppercase; }
 
+.contact__caption,
+.info__caption,
+.feedback__caption {
+  margin-bottom: 15px; }
+
 .contact__text,
 .contact__item,
 .feedback__text {
@@ -916,7 +961,8 @@ button:hover {
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    margin-top: -2px; }
   .info__link {
     font-weight: 700;
     line-height: 26px;
@@ -933,7 +979,7 @@ button:hover {
     letter-spacing: 1.4px; }
   .feedback__text {
     letter-spacing: -0.1px;
-    margin-bottom: 24px; }
+    margin-bottom: 23px; }
 
 .search {
   min-height: 44px;
