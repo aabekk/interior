@@ -4,7 +4,8 @@
     letter-spacing: 1.4px; }
   .info__box {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-top: -2px; }
   .info__link {
     font-weight: 700;
     line-height: 26px;
