@@ -3,7 +3,6 @@
   .promo__item {
     position: relative; }
   .promo__link:hover {
-    background-color: #fff;
     opacity: 0.5;
     transition: 0.2s; }
   .promo__box {
