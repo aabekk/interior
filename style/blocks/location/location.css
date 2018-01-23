@@ -1,0 +1,35 @@
+.location {
+  padding: 70px 98px 122px; }
+  .location__list {
+    display: flex;
+    justify-content: space-between; }
+  .location__item {
+    text-align: center;
+    color: #212121;
+    width: 368px;
+    border: 1px solid #9c9c9c;
+    opacity: 0.8;
+    font-size: 14px;
+    padding: 42px 0 62px; }
+    .location__item:hover {
+      opacity: 1; }
+  .location__marker {
+    margin: 0 auto;
+    display: block;
+    width: 51px;
+    height: 83px;
+    background: url("../img/svg/map-marker.svg") no-repeat; }
+  .location__caption {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: -0.6px;
+    margin-bottom: -1px; }
+  .location__title {
+    margin-bottom: 2px;
+    letter-spacing: -1.3px; }
+  .location__link {
+    color: inherit;
+    letter-spacing: -0.1px; }
+    .location__link:hover {
+      color: #6c6c6c; }
