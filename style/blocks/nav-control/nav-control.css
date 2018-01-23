@@ -3,14 +3,18 @@
   font-weight: 700;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
-  .nav-control__list {
+  align-items: center;
+  margin-bottom: 50px; }
+  .nav-control__list::after {
+    content: '';
+    display: block;
     width: 300px;
-    border-bottom: 1px solid #6c6c6c; }
+    height: 1px;
+    background-color: #6c6c6c; }
   .nav-control__item {
-    display: inline-block;
-    font-size: 35px; }
+    display: inline-block; }
   .nav-control__btn {
+    font-size: 35px;
     color: inherit;
     font-weight: inherit;
     letter-spacing: 2.0px;

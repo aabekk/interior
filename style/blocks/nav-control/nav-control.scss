@@ -11,15 +11,21 @@ $dark-gray: #6c6c6c;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	&__list { //Доработать
-		width: 300px;
-		border-bottom: 1px solid $dark-gray;
+	margin-bottom: 50px;
+	&__list {
+		&::after {
+			content:'';
+			display: block;
+			width: 300px;
+			height: 1px;
+			background-color: $dark-gray;
+		}
 	}
 	&__item {
 		display: inline-block;
-		font-size: 35px;
 	}
 	&__btn {
+		font-size: 35px;
 		color: inherit;
 		font-weight: inherit;
 		letter-spacing: 2.0px;
