@@ -14,6 +14,11 @@
   font-size: 18px;
   text-transform: uppercase; }
 
+.contact__caption,
+.info__caption,
+.feedback__caption {
+  margin-bottom: 15px; }
+
 .contact__text,
 .contact__item,
 .feedback__text {
