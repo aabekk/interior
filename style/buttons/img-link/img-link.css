@@ -1,0 +1,5 @@
+.trend__link:hover,
+.promo__link:hover,
+.catalog__link:hover {
+  opacity: 0.5;
+  transition: 0.2s; }
