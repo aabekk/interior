@@ -1,12 +1,8 @@
 .trend {
-  padding: 111px 98px 90px; }
+  padding: 114px 98px 90px; }
   .trend__list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; }
   .trend__item {
-    margin-bottom: 27px; }
-  .trend__img-link:hover {
-    background-color: #fff;
-    opacity: 0.5;
-    transition: 0.2s; }
+    margin-bottom: 30px; }

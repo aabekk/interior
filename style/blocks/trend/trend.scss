@@ -7,20 +7,13 @@ $green: #43a047;
 $red: #e53935;
 
 .trend {
-	padding: 111px 98px 90px;
+	padding: 114px 98px 90px;
 	&__list {
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 	}
 	&__item {
-		margin-bottom: 27px;
-	}
-	&__img-link {
-		&:hover {
-			background-color: #fff;
-			opacity: 0.5;
-			transition: 0.2s;
-		}
+		margin-bottom: 30px;
 	}
 }
