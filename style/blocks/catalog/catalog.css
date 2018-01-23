@@ -1,0 +1,24 @@
+.catalog {
+  padding: 66px 98px 140px; }
+  .catalog__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .catalog__item {
+    margin-bottom: 30px; }
+  .catalog__refresh {
+    margin: 0 auto;
+    display: block;
+    width: 29px;
+    height: 29px;
+    margin-top: 40px;
+    background: url("../img/svg/refresh.svg") no-repeat;
+    animation-name: spin;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
