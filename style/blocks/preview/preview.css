@@ -1,9 +1,8 @@
 .preview {
-  padding: 111px 98px 117px; }
+  padding: 114px 98px 120px; }
   .preview__list {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
     flex-wrap: wrap; }
   .preview__item {
     position: relative; }
