@@ -1,0 +1,10 @@
+.exclusive {
+  padding: 120px 98px;
+  display: flex;
+  justify-content: space-between; }
+  .exclusive__list {
+    display: inherit;
+    justify-content: inherit;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 570px; }
