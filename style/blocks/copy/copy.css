@@ -1,14 +1,14 @@
 .copy {
   display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-between; }
   .copy__list {
     display: flex;
-    justify-content: space-between;
     width: 129px;
-    margin: 2px 26px 0 0; }
+    margin: 2px 26px 0 0;
+    justify-content: space-between; }
   .copy__text {
     font-size: 12px;
-    letter-spacing: 0.4px;
+    font-weight: 700;
     margin: 0;
-    font-weight: 700; }
+    letter-spacing: .4px; }

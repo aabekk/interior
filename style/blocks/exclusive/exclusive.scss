@@ -1,13 +1,14 @@
 .exclusive {
-	padding: 120px 98px;
 	display: flex;
+	padding: 120px 98px;
+
 	justify-content: space-between;
 	&__list {
 		display: inherit;
-		justify-content: inherit;
-		flex-wrap: wrap;
-		align-content: space-between;
 		width: 570px;
-	}
 
+		align-content: space-between;
+		flex-wrap: wrap;
+		justify-content: inherit;
+	}
 }

@@ -2,7 +2,7 @@
   padding: 114px 98px 90px; }
   .trend__list {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-between; }
   .trend__item {
     margin-bottom: 30px; }

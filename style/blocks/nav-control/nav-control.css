@@ -1,26 +1,26 @@
 .nav-control {
-  color: #6c6c6c;
   font-weight: 700;
   display: flex;
-  justify-content: space-between;
+  margin-bottom: 50px;
+  color: #6c6c6c;
   align-items: center;
-  margin-bottom: 50px; }
+  justify-content: space-between; }
   .nav-control__list::after {
-    content: '';
     display: block;
     width: 300px;
     height: 1px;
+    content: '';
     background-color: #6c6c6c; }
   .nav-control__item {
     display: inline-block; }
   .nav-control__btn {
     font-size: 35px;
-    color: inherit;
     font-weight: inherit;
+    padding-bottom: 11px;
     letter-spacing: 2.0px;
+    color: inherit;
     border: 0;
     border-bottom: 2px solid transparent;
-    padding-bottom: 11px;
     background-color: transparent; }
     .nav-control__btn:hover {
       color: #212121;

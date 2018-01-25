@@ -5,41 +5,42 @@ $dark-gray: #6c6c6c;
 	padding: 70px 98px 122px;
 	&__list {
 		display: flex;
+
 		justify-content: space-between;
 	}
 	&__item {
-		text-align: center;
-		color: $black;
-		width: 368px;
-		border: 1px solid $light-gray;
-		opacity: 0.8;
 		font-size: 14px;
+		width: 368px;
 		padding: 42px 0 62px;
+		text-align: center;
+		opacity: .8;
+		color: $black;
+		border: 1px solid $light-gray;
 		&:hover {
 			opacity: 1;
 		}
 	}
 	&__marker {
-		margin: 0 auto;
 		display: block;
 		width: 51px;
 		height: 83px;
+		margin: 0 auto;
 		background: url('../img/svg/map-marker.svg') no-repeat;
 	}
 	&__caption {
-		text-transform: uppercase;
 		font-size: 22px;
 		margin: 0;
-		letter-spacing: -0.6px;
 		margin-bottom: -1px;
+		letter-spacing: -.6px;
+		text-transform: uppercase;
 	}
 	&__title {
 		margin-bottom: 2px;
 		letter-spacing: -1.3px;
 	}
 	&__link {
+		letter-spacing: -.1px;
 		color: inherit;
-		letter-spacing: -0.1px;
 		&:hover {
 			color: $dark-gray;
 		}

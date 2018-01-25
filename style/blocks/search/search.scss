@@ -7,29 +7,30 @@ $dark-gray: #6c6c6c;
 		width: 308px;
 		min-height: 44px;
 		padding-left: 19px;
+		vertical-align: middle;
 		border: none;
 		outline: none;
+
 		-webkit-appearance: none;
-		vertical-align: middle;
 		&::-moz-placeholder {
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 22px;
+			letter-spacing: .5px;
 			color: $dark-gray;
-				font-size: 14px;
-				font-weight: 300;
-				line-height: 22px;
-				letter-spacing: 0.5px;
 		}
 		&::-webkit-input-placeholder {
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 22px;
+			letter-spacing: .5px;
 			color: $dark-gray;
-				font-size: 14px;
-				font-weight: 300;
-				line-height: 22px;
-				letter-spacing: 0.5px;
 		}
 	}
 	&__btn {
-		vertical-align: middle;
 		width: 25.73px;
 		height: 26.73px;
+		vertical-align: middle;
 		border: none;
 		background: url(../img/svg/airplane.svg) no-repeat 50% 50%;
 		&:hover {

@@ -5,13 +5,14 @@ $dark-gray: #6c6c6c;
 	margin-bottom: 63px;
 	&__list {
 		display: flex;
-		justify-content: space-between;
+
 		align-items: flex-end;
+		justify-content: space-between;
 	}
 	&__caption {
-	color: $black;
-	font-size: 36px;
-	letter-spacing: -1.2px;
-	margin: 0;
+		font-size: 36px;
+		margin: 0;
+		letter-spacing: -1.2px;
+		color: $black;
 	}
 }

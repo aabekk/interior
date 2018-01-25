@@ -1,22 +1,22 @@
 .slider {
   margin-left: 98px; }
   .slider__caption {
-    color: #43a047;
     font-size: 18px;
-    text-transform: uppercase;
+    line-height: 47px;
     letter-spacing: 1.3px;
-    line-height: 47px; }
+    text-transform: uppercase;
+    color: #43a047; }
   .slider__title {
-    color: #212121;
     font-size: 57px;
     font-weight: 100;
     line-height: 33px;
+    margin: 0;
     text-transform: uppercase;
-    margin: 0; }
+    color: #212121; }
   .slider__text {
-    margin: 31px 0 25px;
-    color: #6c6c6c;
     font-size: 14px;
     line-height: 25px;
     max-width: 468px;
-    letter-spacing: -0.1px; }
+    margin: 31px 0 25px;
+    letter-spacing: -.1px;
+    color: #6c6c6c; }

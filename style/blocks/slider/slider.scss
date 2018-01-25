@@ -6,26 +6,26 @@ $dark-gray: #6c6c6c;
 .slider {
 	margin-left: 98px;
 	&__caption {
-		color: $green;
 		font-size: 18px;
-		text-transform: uppercase;
-		letter-spacing: 1.3px;
 		line-height: 47px;
+		letter-spacing: 1.3px;
+		text-transform: uppercase;
+		color: $green;
 	}
 	&__title {
-		color: $black;
 		font-size: 57px;
 		font-weight: 100;
 		line-height: 33px;
-		text-transform: uppercase;
 		margin: 0;
+		text-transform: uppercase;
+		color: $black;
 	}
 	&__text {
-		margin: 31px 0 25px;
-		color: $dark-gray;
 		font-size: 14px;
 		line-height: 25px;
 		max-width: 468px;
-		letter-spacing: -0.1px;
+		margin: 31px 0 25px;
+		letter-spacing: -.1px;
+		color: $dark-gray;
 	}
 }

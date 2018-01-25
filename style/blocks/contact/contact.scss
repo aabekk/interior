@@ -8,18 +8,18 @@ $red: #e53935;
 		letter-spacing: 1.2px;
 	}
 	&__text {
-		letter-spacing: -0.2px;
 		margin: 14px 0 22px;
+		letter-spacing: -.2px;
 	}
 	&__item {
-		letter-spacing: -0.1px;
+		letter-spacing: -.1px;
 	}
 	&__link {
-		letter-spacing: -0.3px;
+		letter-spacing: -.3px;
 		color: $black;
 		&:hover {
+			transition: .2s;
 			color: $red;
-			transition: 0.2s;
 		}
 	}
 }

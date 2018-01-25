@@ -1,18 +1,18 @@
 .footer {
-  background-color: #f7f7f7;
-  padding: 105px 98px 27px; }
+  padding: 105px 98px 27px;
+  background-color: #f7f7f7; }
   .footer__box {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 58px; }
+    margin-bottom: 58px;
+    justify-content: space-between; }
 
 .contact__caption,
 .info__caption,
 .feedback__caption,
 .copy__text {
-  color: #6c6c6c;
   font-size: 18px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #6c6c6c; }
 
 .contact__caption,
 .info__caption,
@@ -22,7 +22,7 @@
 .contact__text,
 .contact__item,
 .feedback__text {
-  color: #212121;
   font-size: 14px;
   font-weight: 300;
-  line-height: 22px; }
+  line-height: 22px;
+  color: #212121; }

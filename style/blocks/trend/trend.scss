@@ -10,8 +10,9 @@ $red: #e53935;
 	padding: 114px 98px 90px;
 	&__list {
 		display: flex;
-		justify-content: space-between;
+
 		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 	&__item {
 		margin-bottom: 30px;

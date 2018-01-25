@@ -3,27 +3,27 @@
   .promo__item {
     position: relative; }
   .promo__link:hover {
-    opacity: 0.5;
-    transition: 0.2s; }
+    transition: .2s;
+    opacity: .5; }
   .promo__box {
     position: absolute;
     top: 225px;
     left: 50px; }
   .promo__title {
-    margin: 0;
-    color: #1e88e5;
     font-size: 18px;
+    margin: 0;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
-    letter-spacing: 1.5px; }
+    color: #1e88e5; }
   .promo__caption {
-    color: #212121;
     font-size: 36px;
     margin: 9px 0;
-    letter-spacing: -1px; }
+    letter-spacing: -1px;
+    color: #212121; }
   .promo__text {
-    max-width: 382px;
-    color: #6c6c6c;
     font-size: 14px;
     line-height: 24.04px;
+    max-width: 382px;
     margin: 10px 0 28px;
-    letter-spacing: -0.1px; }
+    letter-spacing: -.1px;
+    color: #6c6c6c; }

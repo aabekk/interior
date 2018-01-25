@@ -2,56 +2,58 @@ $gray: #8c8c8c;
 $black: #212121;
 
 .nav {
-	height: 90px;
-	display: flex;
-	align-items: flex-end;
-	justify-content: space-between;
 	position: fixed;
 	z-index: 1;
-	background-color:#fff;
-	box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.25);
-	padding: 0 166px 0 98px;
 	top: 0;
+	display: flex;
+	height: 90px;
+	padding: 0 166px 0 98px;
+	background-color: #fff;
+	box-shadow: 0 0 12px 1px rgba(0, 0, 0, .25);
+
+	align-items: flex-end;
+	justify-content: space-between;
 	// display: none;
 	&__logo-link {
 		display: block;
-		background: url('../img/svg/logo.svg') no-repeat;
 		width: 185px;
 		height: 24px;
 		margin-bottom: 3px; //Тоже не порядок
+		background: url('../img/svg/logo.svg') no-repeat;
 	}
 	&__list {
-		width: 535px;
 		display: inherit;
-    	justify-content: space-around;
-    	margin-left: 352px; //Может поместить list и form в еще одну коробку?
+		width: 535px;
+		margin-left: 352px; //Может поместить list и form в еще одну коробку?
+
+		justify-content: space-around;
 	}
 	&__item {
-		width: 20%;
 		display: inherit;
 		flex-direction: column;
+		width: 20%;
 	}
 	&__link {
-		color: $gray;
 		font-size: 14px;
 		font-weight: 300;
-		text-transform: uppercase;
-		letter-spacing: 1.4px;
 		margin: 0 auto;
+		letter-spacing: 1.4px;
+		text-transform: uppercase;
+		color: $gray;
 		&:hover {
-			color: $black;
 			font-weight: 700;
+			color: $black;
 			+.nav__border {
 				opacity: 1;
 			}
 		}
 	}
 	&__border {
-		opacity: 0;
-		margin: 0 auto;
-		margin-top: 7px;
 		width: 74px;
 		height: 3px;
+		margin: 0 auto;
+		margin-top: 7px;
+		opacity: 0;
 		background-color: $black;
 	}
 	&__search {

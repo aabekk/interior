@@ -13,16 +13,17 @@ $red: #e53935;
 	}
 	&__box {
 		display: flex;
-		justify-content: space-between;
 		margin-top: -2px;
+
+		justify-content: space-between;
 	}
 	&__link {
+		font-size: 14px;
 		font-weight: 700;
 		line-height: 26px;
+		letter-spacing: .4px;
 		text-transform: uppercase;
-		letter-spacing: 0.4px;
 		color: $black;
-		font-size: 14px;
 		&:hover {
 			color: $dark-gray;
 		}

@@ -9,8 +9,8 @@ $blue: #1e88e5;
 	}
 	&__link {
 		&:hover {
-			opacity: 0.5;
-			transition: 0.2s;
+			transition: .2s;
+			opacity: .5;
 		}
 	}
 	&__box {
@@ -19,24 +19,24 @@ $blue: #1e88e5;
 		left: 50px;
 	}
 	&__title {
-		margin: 0;
-		color: $blue;
 		font-size: 18px;
-		text-transform: uppercase;
+		margin: 0;
 		letter-spacing: 1.5px;
+		text-transform: uppercase;
+		color: $blue;
 	}
 	&__caption {
-		color: $black;
 		font-size: 36px;
 		margin: 9px 0;
 		letter-spacing: -1px;
+		color: $black;
 	}
 	&__text {
-		max-width: 382px;
-		color: $dark-gray;
 		font-size: 14px;
 		line-height: 24.04px;
+		max-width: 382px;
 		margin: 10px 0 28px;
-		letter-spacing: -0.1px;
+		letter-spacing: -.1px;
+		color: $dark-gray;
 	}
 }

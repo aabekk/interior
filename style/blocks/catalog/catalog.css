@@ -2,21 +2,21 @@
   padding: 66px 98px 140px; }
   .catalog__list {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-between; }
   .catalog__item {
     margin-bottom: 30px; }
   .catalog__refresh {
-    margin: 0 auto;
     display: block;
     width: 29px;
     height: 29px;
+    margin: 0 auto;
     margin-top: 40px;
-    background: url("../img/svg/refresh.svg") no-repeat;
     animation-name: spin;
-    animation-duration: 0.8s;
+    animation-duration: .8s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-timing-function: linear; }
+    background: url("../img/svg/refresh.svg") no-repeat; }
 @keyframes spin {
   from {
     transform: rotate(0deg); }

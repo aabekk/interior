@@ -1,18 +1,20 @@
-$footer:#f7f7f7;
+$footer: #f7f7f7;
 .copy {
 	display: flex;
-	justify-content: space-between;
+
 	align-items: center;
+	justify-content: space-between;
 	&__list {
 		display: flex;
-		justify-content: space-between;
 		width: 129px;
 		margin: 2px 26px 0 0;
+
+		justify-content: space-between;
 	}
 	&__text {
 		font-size: 12px;
-		letter-spacing: 0.4px;
-		margin: 0;
 		font-weight: 700;
+		margin: 0;
+		letter-spacing: .4px;
 	}
 }

@@ -2,8 +2,8 @@
   padding: 114px 98px 120px; }
   .preview__list {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-between; }
   .preview__item {
     position: relative; }
     .preview__item:hover .preview__box {
@@ -14,33 +14,33 @@
     display: none;
     width: 268px;
     height: 268px;
+    opacity: .9;
     border: 1px solid #9c9c9c;
-    background-color: #fff;
-    opacity: 0.9; }
+    background-color: #fff; }
   .preview__link {
-    background: url("../img/svg/arrow-big.svg") no-repeat 49% 50%;
     display: block;
     width: 48px;
     height: 48px;
-    border-radius: 50%;
-    box-shadow: 1px 1px 1px 1px rgba(33, 33, 33, 0.35);
-    background-color: #fff;
     margin: 0 auto;
     margin-top: 61px;
-    margin-bottom: 16px; }
+    margin-bottom: 16px;
+    border-radius: 50%;
+    background: url("../img/svg/arrow-big.svg") no-repeat 49% 50%;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px rgba(33, 33, 33, 0.35); }
     .preview__link:hover {
-      transition: 0.2s;
+      transition: .2s;
       box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35); }
   .preview__caption {
-    text-align: center;
-    color: #212121;
     font-size: 22px;
     margin: 0;
-    letter-spacing: -0.6px; }
-  .preview__text {
     text-align: center;
-    color: #6c6c6c;
+    letter-spacing: -.6px;
+    color: #212121; }
+  .preview__text {
     font-size: 14px;
     line-height: 21.91px;
     max-width: 214px;
-    margin: 14px auto; }
+    margin: 14px auto;
+    text-align: center;
+    color: #6c6c6c; }

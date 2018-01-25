@@ -6,8 +6,9 @@ $black: #212121;
 	padding: 114px 98px 120px;
 	&__list {
 		display: flex;
-		justify-content: space-between;
+
 		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 
 	&__item {
@@ -22,41 +23,41 @@ $black: #212121;
 		display: none;
 		width: 268px;
 		height: 268px;
+		opacity: .9;
 		border: 1px solid $light-gray;
 		background-color: $white;
-		opacity: 0.9;
 	}
 	&__link {
-		background: url('../img/svg/arrow-big.svg') no-repeat 49% 50%;
 		display: block;
 		// display: flex;
 		// justify-content: center;
 		width: 48px;
 		height: 48px;
-		border-radius: 50%;
-		box-shadow: 1px 1px 1px 1px rgba(33, 33, 33, 0.35);
-		background-color: $white;
 		margin: 0 auto;
 		margin-top: 61px;
 		margin-bottom: 16px;
+		border-radius: 50%;
+		background: url('../img/svg/arrow-big.svg') no-repeat 49% 50%;
+		background-color: $white;
+		box-shadow: 1px 1px 1px 1px rgba(33, 33, 33, .35);
 		&:hover {
-			transition: 0.2s;
-			box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+			transition: .2s;
+			box-shadow: 0 2px 5px 1px rgba(33, 33, 33, .35);
 		}
 	}
 	&__caption {
-		text-align: center;
-		color: $black;
 		font-size: 22px;
 		margin: 0;
-		letter-spacing: -0.6px;
+		text-align: center;
+		letter-spacing: -.6px;
+		color: $black;
 	}
 	&__text {
-		text-align: center;
-		color: $dark-gray;
 		font-size: 14px;
 		line-height: 21.91px;
 		max-width: 214px;
 		margin: 14px auto;
+		text-align: center;
+		color: $dark-gray;
 	}
 }

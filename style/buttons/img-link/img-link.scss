@@ -3,9 +3,8 @@
 .catalog {
 	&__link {
 		&:hover {
-			opacity: 0.5;
-			transition: 0.2s;
+			transition: .2s;
+			opacity: .5;
 		}
 	}
 }
-
