@@ -1,0 +1,42 @@
+$black: #212121;
+.product {
+	display: flex;
+	padding: 72px 98px 114px;
+	&__box {
+		padding-left: 56px;
+	}
+	&__caption {
+		font-size: 36px;
+		margin: 42px 0 47px;
+		text-align: center;
+		letter-spacing: -1.5px;
+		color: $black;
+	}
+	&__price {
+		font-size: 41px;
+		font-weight: 300;
+		display: block;
+		margin-bottom: 23px;
+		text-align: center;
+		color: $black;
+	}
+	&__price-num {
+		font-size: 72px;
+	}
+	&__title,
+	&__text {
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 24.01px;
+		max-width: 501px;
+		padding-left: 5px;
+		letter-spacing: .3px;
+		color: $black;
+	}
+	&__title {
+		margin-bottom: 0;
+	}
+	&__text {
+		margin-top: 13px;
+	}
+}
