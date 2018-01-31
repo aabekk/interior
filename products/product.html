@@ -15,39 +15,126 @@
 </head>
 <body>
 	<div class="container">
-		<header class="header">
-			<nav class="nav">
-				<a href="../index.html" class="nav__logo-link"></a>
-				<ul class="nav__list">
-					<li class="nav__item">
-						<a class="nav__link" href="../index.html">home</a>
-						<div class="nav__border"></div>
+		<nav class="nav nav_position">
+			<a href="../index.html" class="nav__logo-link"></a>
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a class="nav__link" href="../index.html">home</a>
+					<div class="nav__border"></div>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="../catalog.html">products</a>
+					<div class="nav__border"></div>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="#">history</a>
+					<div class="nav__border"></div>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="#">showroom</a>
+					<div class="nav__border"></div>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="../contacts.html">contact</a>
+					<div class="nav__border"></div>
+				</li>
+			</ul>
+			<form class="nav__search" action="#">
+				<input class="nav__input" type="search">
+				<button class="nav__btn"></button> <!-- Кнопка или отправка форме?
+				При нажатии на кнопку поле ввода появляется перекрывая МЕНЮ -->
+			</form>
+		</nav>
+		<main class="content">
+			<nav class="nav-product">
+				<ul class="nav-product__list"> <!-- Оптимизировать -->
+					<li class="nav-product__item">
+						<button class="nav-product__btn">all</button> <!--Доработать-->
 					</li>
-					<li class="nav__item">
-						<a class="nav__link" href="../catalog.html">products</a>
-						<div class="nav__border"></div>
+					<li class="nav-product__item">
+						<button class="nav-product__btn">home</button> <!--Доработать-->
 					</li>
-					<li class="nav__item">
-						<a class="nav__link" href="#">history</a>
-						<div class="nav__border"></div>
+					<li class="nav-product__item">
+						<button class="nav-product__btn">office</button> <!--Доработать-->
 					</li>
-					<li class="nav__item">
-						<a class="nav__link" href="#">showroom</a>
-						<div class="nav__border"></div>
+						<li class="nav-product__item">
+						<button class="nav-product__btn">furniture</button> <!--Доработать-->
 					</li>
-					<li class="nav__item">
-						<a class="nav__link" href="../contacts.html">contact</a>
-						<div class="nav__border"></div>
+						<li class="nav-product__item">
+						<button class="nav-product__btn">modern</button> <!--Доработать-->
+					</li>
+						<li class="nav-control__item">
+						<button class="nav-product__btn">classic</button> <!--Доработать-->
 					</li>
 				</ul>
-				<form class="nav__search" action="#">
-					<input class="nav__input" type="search">
-					<button class="nav__btn"></button> <!-- Кнопка или отправка форме?
-					При нажатии на кнопку поле ввода появляется перекрывая МЕНЮ -->
-				</form>
 			</nav>
-		</header>
-		<main class="content"></main>
+			<div class="product">
+				<div class="slider-prod">
+					<a class="slider-prod__link" href="../img/slider1-big.jpg" target="_blank">
+						<img class="prod-slider__img" src="../img/slider1.jpg" alt="Product" title="Full Size"  width="570">
+					</a>
+					<div class="slider-prod__box">
+						<ul class="slider-prod__list">
+							<li class="slider-prod__item">
+								<button class="slider-prod__btn">
+									<img class="slider-prod__img-s" src="../img/controll.jpg" alt="product" width="70">
+								</button>
+							</li>
+							<li class="slider-prod__item">
+								<button class="slider-prod__btn">
+									<img class="slider-prod__img-s" src="../img/controll11.jpg" alt="product" width="70">
+								</button>
+							</li>
+							<li class="slider-prod__item">
+								<button class="slider-prod__btn">
+									<img class="slider-prod__img-s" src="../img/controll2.jpg" alt="product" width="70">
+								</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="product__box">
+					<h1 class="product__caption">Fishnet Chair</h1>
+					<span class="product__price">&#36;&nbsp;
+						<span class="product__price-num">36.7</span>
+						/sq
+					</span>
+					<a href="#" class="order order_color">order us</a>
+					<h3 class="product__title">The majesty of Mountains - Ugmonk style.</h3>
+					<p class="product__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p class="product__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+				</div>
+			</div>
+			<div class="sked">
+				<nav class="nav-sked">
+					<ul class="nav-sked__list">
+						<li class="nav-sked__item">
+							<h2 class="nav-sked__caption">Related Products</h2>
+						</li>
+						<li class="nav-sked__item">
+							<a class="explore" href="catalog.html">explore all</a>
+						</li>
+					</ul>
+				</nav>
+				<ul class="sked__list">
+					<li class="sked__item">
+						<a href="../products/product.html" class="sked__link">
+							<img src="../img/product-11.jpg" alt="Product" class="sked__img" width="370">
+						</a>
+					</li>
+					<li class="sked__item">
+						<a href="../products/product.html" class="sked__link">
+							<img src="../img/product-21.jpg" alt="Product" class="sked__img" width="370">
+						</a>
+					</li>
+					<li class="sked__item">
+						<a href="../products/product.html" class="sked__link">
+							<img src="../img/product-31.jpg" alt="Product" class="sked__img" width="370">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</main>
 		<footer class="footer">
 			<div class="footer__box">
 				<div class="contact">
