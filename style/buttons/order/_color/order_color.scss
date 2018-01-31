@@ -1,0 +1,16 @@
+
+.order {
+	&_color {
+		font-size: 22px;
+		line-height: 70px;
+		width: 510px - 160px;
+		height: 70px;
+		margin-bottom: 44px;
+		padding-left: 160px;
+		letter-spacing: 3.7px;
+		color: #fff;
+		border-radius: 35px;
+		background: url(../img/svg/arrow-w.svg) no-repeat 67.5% 50%;
+		background-color: #f44336;
+	}
+}
