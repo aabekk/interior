@@ -1,5 +1,3 @@
-$name: montserrat;
-
 @mixin font-face ($name, $mod, $font-weight, $style: false) {
     @font-face {
         font-family: $name;
@@ -15,6 +13,7 @@ $name: montserrat;
     }
 }
 
-@include font-face($name, bold, 700);
-@include font-face($name, light, 300);
-@include font-face($name, thin, 100);
+@include font-face(montserrat, bold, 700);
+@include font-face(montserrat, light, 300);
+@include font-face(montserrat, thin, 100);
+@include font-face(gotham, light, 300);
