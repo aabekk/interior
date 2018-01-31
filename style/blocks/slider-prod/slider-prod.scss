@@ -1,0 +1,20 @@
+.slider-prod {
+	&__box {
+		padding: 11px 150px;
+	}
+	&__list {
+		display: flex;
+		width: 230px;
+
+		justify-content: space-between;
+	}
+	&__btn {
+		margin: 0;
+		padding: 0;
+		border: none;
+		&:hover {
+			transition: .5s;
+			opacity: .5;
+		}
+	}
+}
