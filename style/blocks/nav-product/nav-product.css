@@ -1,0 +1,23 @@
+.nav-product {
+  display: flex;
+  height: 70px;
+  margin-top: 29px;
+  background-color: #f4f4f4; }
+  .nav-product__list {
+    display: inherit;
+    width: 647px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between; }
+  .nav-product__btn {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0;
+    letter-spacing: 2.0px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    border: 0;
+    background-color: transparent; }
+    .nav-product__btn:hover {
+      color: #212121; }

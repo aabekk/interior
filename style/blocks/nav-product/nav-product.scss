@@ -1,0 +1,32 @@
+$nav-product: #f4f4f4;
+$dark-gray: #6c6c6c;
+$black: #212121;
+
+.nav-product {
+	display: flex;
+	height: 70px;
+	margin-top: 29px;
+	background-color: $nav-product;
+	&__list {
+		display: inherit;
+		width: 647px;
+		margin: 0 auto;
+
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__btn {
+		font-size: 18px;
+		font-weight: 700;
+		padding: 0;
+		letter-spacing: 2.0px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: $dark-gray;
+		border: 0;
+		background-color: transparent;
+		&:hover {
+			color: $black;
+		}
+	}
+}
