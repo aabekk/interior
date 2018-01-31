@@ -1,10 +1,10 @@
-.nav-trend {
+.nav-sked {
   margin-bottom: 63px; }
-  .nav-trend__list {
+  .nav-sked__list {
     display: flex;
     align-items: flex-end;
     justify-content: space-between; }
-  .nav-trend__caption {
+  .nav-sked__caption {
     font-size: 36px;
     margin: 0;
     letter-spacing: -1.2px;
