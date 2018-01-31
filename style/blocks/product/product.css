@@ -5,17 +5,20 @@
     padding-left: 56px; }
   .product__caption {
     font-size: 36px;
-    margin: 42px 0 47px;
+    margin: 42px 0 55px;
     text-align: center;
     letter-spacing: -1.5px;
     color: #212121; }
   .product__price {
-    font-size: 41px;
+    font-family: Gotham;
+    font-size: 36px;
     font-weight: 300;
     display: block;
-    margin-bottom: 23px;
+    margin-bottom: 15px;
     text-align: center;
-    color: #212121; }
+    color: #212121;
+    padding-left: 5px;
+    letter-spacing: -1.7px; }
   .product__price-num {
     font-size: 72px; }
   .product__title, .product__text {
