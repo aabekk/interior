@@ -77,8 +77,6 @@ $black: #212121;
 		background: none;
 		&::before {
 			content: url('../img/svg/search.svg');
-			// Сделать как с полем ввода в конце,
-			// только скрыть поле ввода до наведения
 		}
 	}
 }
