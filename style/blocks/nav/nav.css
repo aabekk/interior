@@ -23,7 +23,8 @@
   .nav__item {
     display: inherit;
     flex-direction: column;
-    width: 20%; }
+    width: 20%;
+    text-align: center; }
   .nav__link {
     font-size: 14px;
     font-weight: 300;
@@ -31,10 +32,18 @@
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: #8c8c8c; }
+    .nav__link::after {
+      opacity: 0;
+      content: '';
+      display: block;
+      width: 74px;
+      height: 3px;
+      margin: 7px auto 0 auto;
+      background-color: #212121; }
     .nav__link:hover {
       font-weight: 700;
       color: #212121; }
-      .nav__link:hover + .nav__border {
+      .nav__link:hover::after {
         opacity: 1; }
   .nav__border {
     width: 74px;
