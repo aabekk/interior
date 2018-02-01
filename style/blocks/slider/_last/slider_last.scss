@@ -1,9 +1,15 @@
 $red: #e53935;
 
 .slider {
-	&__caption {
-		&_last {
+	&_last {
+		background: url(../img/slider.jpg) no-repeat;
+		&:hover .slider__caption {
 			color: $red;
+		}
+	}
+	&__box {
+		&_last {
+			top: 33.7%;
 		}
 	}
 }
