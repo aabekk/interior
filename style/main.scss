@@ -21,7 +21,6 @@
 @import 'blocks/promo/promo';
 @import 'blocks/sked/sked';
 @import 'blocks/nav-sked/nav-sked';
-@import 'blocks/hot/hot';
 @import 'blocks/exclusive/exclusive';
 @import 'blocks/slider/_last/slider_last';
 @import 'blocks/promo/_last/promo_last';
@@ -32,6 +31,10 @@
 @import 'blocks/feedback/feedback';
 @import 'blocks/search/search';
 @import 'blocks/copy/copy';
+@import 'blocks/copy/_facebook/copy_facebook';
+@import 'blocks/copy/_google/copy_google';
+@import 'blocks/copy/_pinterest/copy_pinterest';
+@import 'blocks/copy/_twitter/copy_twitter';
 $black: #212121;
 $light-gray: #9c9c9c;
 $gray: #8c8c8c;
