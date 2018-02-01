@@ -4,7 +4,6 @@ $black: #212121;
 .nav {
 	position: fixed;
 	z-index: 1;
-	top: 0;
 	display: flex;
 	height: 90px;
 	padding: 0 166px 0 98px;
@@ -42,12 +41,12 @@ $black: #212121;
 		text-transform: uppercase;
 		color: $gray;
 		&::after {
-			opacity: 0;
-			content: '';
 			display: block;
 			width: 74px;
 			height: 3px;
 			margin: 7px auto 0 auto;
+			content: '';
+			opacity: 0;
 			background-color: #212121;
 		}
 		&:hover {
