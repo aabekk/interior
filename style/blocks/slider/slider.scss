@@ -4,13 +4,24 @@ $green: #43a047;
 $gray: #8c8c8c;
 $dark-gray: #6c6c6c;
 .slider {
-	margin-left: 98px;
+	height: 800px;
+	background: url(../img/slider-img.jpg) no-repeat;
+	&:hover &__caption {
+		transition: .5s;
+		color: $green;
+	}
+	&__box {
+		position: relative;
+		top: 44.5%;
+		padding-left: 7.2%;
+	}
 	&__caption {
 		font-size: 18px;
 		line-height: 47px;
+		margin-top: 0;
 		letter-spacing: 1.3px;
 		text-transform: uppercase;
-		color: $green;
+		color: #fff;
 	}
 	&__title {
 		font-size: 57px;

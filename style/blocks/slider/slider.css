@@ -1,11 +1,20 @@
 .slider {
-  margin-left: 98px; }
+  height: 800px;
+  background: url(../img/slider-img.jpg) no-repeat; }
+  .slider:hover .slider__caption {
+    transition: .5s;
+    color: #43a047; }
+  .slider__box {
+    position: relative;
+    top: 44.5%;
+    padding-left: 7.2%; }
   .slider__caption {
     font-size: 18px;
     line-height: 47px;
+    margin-top: 0;
     letter-spacing: 1.3px;
     text-transform: uppercase;
-    color: #43a047; }
+    color: #fff; }
   .slider__title {
     font-size: 57px;
     font-weight: 100;
