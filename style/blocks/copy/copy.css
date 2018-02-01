@@ -2,6 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between; }
+  .copy__link {
+    font-size: 0;
+    display: block;
+    min-width: 28px;
+    min-height: 28px; }
   .copy__list {
     display: flex;
     width: 129px;

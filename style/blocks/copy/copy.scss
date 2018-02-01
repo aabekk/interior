@@ -4,6 +4,12 @@ $footer: #f7f7f7;
 
 	align-items: center;
 	justify-content: space-between;
+	&__link {
+		font-size: 0;
+		display: block;
+		min-width: 28px;
+		min-height: 28px;
+	}
 	&__list {
 		display: flex;
 		width: 129px;
