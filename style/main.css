@@ -667,6 +667,14 @@ button:hover {
     letter-spacing: -.1px;
     color: #6c6c6c; }
 
+.slider_last {
+  background: url(../img/slider.jpg) no-repeat; }
+  .slider_last:hover .slider__caption {
+    color: #e53935; }
+
+.slider__box_last {
+  top: 33.7%; }
+
 .product {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -974,16 +982,10 @@ button:hover {
         -ms-flex-pack: inherit;
             justify-content: inherit; }
 
-.slider_last {
-  background: url(../img/slider.jpg) no-repeat; }
-  .slider_last:hover .slider__caption {
-    color: #e53935; }
-.slider__box_last {
-  top: 33.7%; }
-
 .promo__box_last {
   top: 183px;
   left: 30px; }
+
 .promo__text_last {
   max-width: 339px; }
 

@@ -2,5 +2,3 @@
   background: url(../img/slider.jpg) no-repeat; }
   .slider_last:hover .slider__caption {
     color: #e53935; }
-.slider__box_last {
-  top: 33.7%; }
