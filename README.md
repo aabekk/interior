@@ -1,6 +1,6 @@
 # Интернет-магазин "Interior"
 
-[Ссылка на сайт](https://scofield001.github.io/interior/)
+[Перейти на сайт](https://scofield001.github.io/interior/)
 ---
 Адаптивная верстка.
 
