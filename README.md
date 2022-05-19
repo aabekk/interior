@@ -1,6 +1,6 @@
 # Интернет-магазин "Interior"
 
-[Перейти на сайт](https://aabekk.github.io/interior/dist/)
+[Перейти на сайт](https://ahwest.github.io/interior/dist/)
 ---
 Адаптивная верстка.
 
